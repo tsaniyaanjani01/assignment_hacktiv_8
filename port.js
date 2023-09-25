@@ -1,0 +1,30 @@
+function portofolio() {
+    var outname = document.getElementById("outname")
+    var nama = document.getElementById("nama").value
+    var job = document.getElementById("job")
+    var role = document.getElementById("role").value
+    var ada = document.getElementById("ada")
+    var availability = document.getElementById("availability").value
+    var umur = document.getElementById("umur")
+    var usia = document.getElementById("usia").value
+    var alamat = document.getElementById("alamat")
+    var lokasi = document.getElementById("lokasi").value
+    var tahun = document.getElementById("tahun")
+    var year = document.getElementById("tahun").value
+    var gmail = document.getElementById("gmail")
+    var email = document.getElementById("email").value
+    outname.innerText = nama
+    job.innerText = role
+    ada.innerText = availability
+    umur.innerText = usia
+    alamat.innerText = lokasi
+    tahun.innerText = year
+    gmail.innerText = email
+    nama.value = ""
+    role.value = ""
+    availability.value = ""
+    usia.value = ""
+    lokasi.value = ""
+    year.value = ""
+    email.value = ""
+}
